@@ -24,6 +24,7 @@ count the number of words
 Giving print statement for getting output
 
 ## PROGRAM:
+```
 ## DEVELOPED BY: SAI GURUCHANDRAN
 ## REFERENCE NUMBER: 23014037
 num_words =0
@@ -33,6 +34,7 @@ with open('nature.txt','r') as file1:
         word =i.split()
         num_words += len(word)
 print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
 ![WhatsApp Image 2024-01-02 at 23 19 28_fd488971](https://github.com/Saiguruchandran/Word-count/assets/144870946/1c730483-db7b-40a2-9f33-016faf0e9c4a)
 
